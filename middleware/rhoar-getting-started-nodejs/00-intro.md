@@ -3,6 +3,12 @@
 In this scenario you will learn more about [Node.js](https://nodejs.org), one of the runtimes
 included in [Red Hat OpenShift Application Runtimes](https://developers.redhat.com/products/rhoar).
 
+Comment start:
+
+[//]: # (This may be the most platform independent comment)
+
+Comment End:
+
 You will take an existing sample Node.js application and modify it to address microservice concerns,
 understand its structure, deploy it to OpenShift and exercise the interfaces between Node.js apps,
 microservices, and OpenShift/Kubernetes.
