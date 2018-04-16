@@ -3,6 +3,12 @@ The sample project shows the components of a Node.js project using Node.js and N
 The app implements a simple RESTful microservice which implements a greeting service (that simply returns a
 Hello greeting).
 
+Comment start:
+
+[//]: # (This may be the most platform independent comment)
+
+Comment End:
+
 **1. Inspect the application code**
 
 Click the links below to open each file and inspect its contents:
