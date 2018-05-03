@@ -43,9 +43,9 @@ Check that the warning is now gone from the [OpenShift webconsole Deployment con
 
 Below is a rather complex command that does several steps in one. After the command, the different steps are explained in more detail.
 
-``oc rsh $(oc get pods -o name | grep http-vertx | grep -v build) pkill java && oc get pods -w``{{execute}}
+``oc --server https://$(hostname):8443 --insecure-skip-tls-verify=true rsh $(oc get pods -l app=http-vertx -o name) pkill java && oc get pods -w``{{execute}}
 
-`oc get pods -o name | grep http-vertx | grep -v build` will return the name of the running pod, which is different each time.
+`oc get pods -l app=http-vertx -o name` will return the name of the running pod, which is different each time.
 
 `oc rsh <pod> pkill java` stops the application.
 
