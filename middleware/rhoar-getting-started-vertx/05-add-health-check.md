@@ -15,7 +15,7 @@ This is just a warning, and your container might be working 100% correctly, but 
 
 **1. Add a health check**
 
-Add the following lines to the `pom.xml` at the comment.
+Open the `pom.xml`{{open}} file and add the following lines at the `<!-- ADD HEALTH CHECK HERE -->` comment.
 
 <pre class="file" data-filename="pom.xml" data-target="insert" data-marker="<!-- ADD HEALTH CHECK HERE -->">
   &lt;config&gt;
@@ -31,7 +31,7 @@ After making this change, the fabric8:plugin has enough details to create the he
 
 Redeploy the application by running the fabric8:deploy goal again.
 
-``mvn fabric8:deploy -Popenshift``{{execute}}
+``mvn fabric8:undeploy fabric8:deploy -Popenshift``{{execute}}
 
 Wait for the rollout to finish.
 
