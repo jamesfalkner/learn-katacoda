@@ -1,0 +1,57 @@
+{
+  "title": "Spring and Spring Boot on Red Hat OpenShift Application Runtimes",
+  "description": "",
+  "paid": false,
+  "courses": [
+    {
+      "course_id": "spring-getting-started",
+      "title": "Getting Started with Spring",
+      "description": "Basic Introduction to Spring on Red Hat OpenShift"
+    },
+    {
+      "course_id": "spring-mvc",
+      "title": "Spring MVC",
+      "description": "Model/View/Controller pattern with Spring's MVC framework."
+    },
+    {
+      "course_id": "spring-rest-services",
+      "title": "Spring REST",
+      "description": "RESTful applications using Spring Rest"
+    },
+    {
+      "course_id": "spring-db-access",
+      "title": "Spring Data with JPA/Hibernate",
+      "description": "Database Integration in Spring Boot on OpenShift"
+    },
+    {
+      "course_id": "spring-messaging",
+      "title": "Spring Messaging with Red Hat AMQ",
+      "description": "Modern Distributed microservices using Red Hat messaging"
+    },
+    {
+      "course_id": "arquillian-cube",
+      "title": "Testing Spring Applications with Arquillian Cube",
+      "description": "Integration testing in a containerized environment"
+    },
+    {
+      "course_id": "microservices-1",
+      "title": "Externalized Configuration",
+      "description": "Externalized Configuration and Health Checks"
+    },
+    {
+      "course_id": "microservices-2",
+      "title": "Service Discovery and Load Balancing",
+      "description": "Service Discovery and Load Balancing"
+    },
+    {
+      "course_id": "microservices-3",
+      "title": "Fault Tolerance and Resiliency",
+      "description": "Circuit Breaking"
+    },
+    {
+      "course_id": "monitoring",
+      "title": "Monitoring Spring Applications on OpenShift",
+      "description": "Using Spring monitoring tools on OpenShift to keep your applications healthy"
+    }
+  ]
+}
