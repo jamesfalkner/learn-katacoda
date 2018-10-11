@@ -4,4 +4,4 @@ For your convenience, this scenario has been created with a base project using t
 
 As you review the content you will notice that there are a couple **TODO** comments. **Do not remove them!** These comments are used as markers for later exercises in this scenario. 
 
-As it stands **this project will not run or compile**. In the next section we will add the dependencies and class files necessary to run the application.
+In the next section we will add the dependencies and write the class files necessary to run the application.

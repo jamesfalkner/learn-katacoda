@@ -31,7 +31,7 @@ If Spring Boot sees a database like H2 on the classpath it will automatically co
 
 We are going to implement an Entity class that represents a Fruit. This class is used to map our object to a database schema.
 
-First, we need to create the java class file. For that, you need to click on the following link which opens the empty file in the editor: ``src/main/java/com/example/service/Fruit.java``{{open}}
+First, we need to create the java class file. For that, you need to click on the following link which opens the skeletal class file in the editor: ``src/main/java/com/example/service/Fruit.java``{{open}}
 
 Then, copy the below content into the file (or use the `Copy to Editor` button):
 
@@ -83,7 +83,7 @@ The `@Entity` annotation marks the object as a persistable Entity for Spring Dat
 
 The repository should provide methods for inserting, updating, reading, and deleting Fruits from the database. We are going to use Spring Data for this which already provides us with a lot of the boilerplate code, so all we have to do is to add an interface that extends the `CrudRepository<T, I>` interface provided by Spring Data.
 
-First, we need to create the java class file. For that, you need to click on the following link which opens the empty file in the editor: ``src/main/java/com/example/service/FruitRepository.java``{{open}}
+First, we need to fill out the skeltal java class file. For that, you need to click on the following link which opens the file in the editor: ``src/main/java/com/example/service/FruitRepository.java``{{open}}
 
 Then, copy the below content into the file (or use the `Copy to Editor` button):
 
@@ -106,7 +106,7 @@ public interface FruitRepository extends CrudRepository&lt;Fruit, Long&gt; {
 
 To pre-populate the database with content, Hibernate offers a nifty feature where we can provide an SQL file that populates the content.
 
-First, we need to create the SQL  file. For that, you need to click on the following link which opens the empty file in the editor: ``src/main/resources/import.sql``{{open}}
+First, we need to create the SQL file. For that, you need to click on the following link which opens the empty file in the editor: ``src/main/resources/import.sql``{{open}}
 
 Then, copy the below content into the file (or use the `Copy to Editor` button):
 
