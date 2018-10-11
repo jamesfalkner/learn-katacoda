@@ -30,11 +30,11 @@ Since we're choosing which users are being exposed to the new version of the app
 
 Load Balancing functionality is built into OpenShift by default. OpenShift provides its load balancing through its concept of service abstraction. All incoming traffic first comes through a Router, which is responsible for exposing the service externally for users.
 
-![Route Exposure](../../assets/middleware/rhoar-microservices/route-expose.png)
+![Route Exposure](/openshift/assets/middleware/rhoar-microservices/route-expose.png)
 
  The Router will then split the traffic on to the different services that have been requested. It's the service that defines how it's distributed, so although the router is the one splitting the traffic, you get to decide how to split which traffic goes to which of the multiple service instances from within the service.
 
-![Route Splitting](../../assets/middleware/rhoar-microservices/route-split.png)
+![Route Splitting](/openshift/assets/middleware/rhoar-microservices/route-split.png)
 
 You can read more about Load Balancing [here](https://access.redhat.com/documentation/en-us/reference_architectures/2017/html-single/spring_boot_microservices_on_red_hat_openshift_container_platform_3/index#load_balancer).
 
@@ -54,7 +54,7 @@ You can read more about Service Discovery [here](https://appdev.openshift.io/doc
 
 Service Discovery is functionality built into OpenShift by default through the use of Kubernetes services. When we are deploying our microservices, we are creating multiple pods that are all assigned to one service that acts like a parent. This assignment happens by creating a `Label` that's given to the pod, which the Service is told to look for through its `Service Selector`. The service will then grab any pod that's created and has the specified label. This means there's no work necessary on our side when we want to have an existing service handle newly created pods.
 
-![Service Discovery](../../assets/middleware/rhoar-microservices/service-discovery.png)
+![Service Discovery](/openshift/assets/middleware/rhoar-microservices/service-discovery.png)
 
 The service acts as an internal load balancer, proxying any requested connections to any of the pods using their internal IP addresses. While pods can be added or removed arbitrarily, the service remains consistently available. This allows anything that depends on the service to use a consistent internal address.
 

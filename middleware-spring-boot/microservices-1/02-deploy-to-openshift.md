@@ -42,7 +42,7 @@ For the deployment to OpenShift we are using the [Fabric8](https://fabric8.io/) 
 
 Now that our application is deployed, navigate to our route in the OpenShift Web View or click [here](http://spring-boot-configmap-greeting-dev.[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/). We should see the following screen, meaning everything was successful:
 
-![Greeting Service](../../assets/middleware/rhoar-microservices/greeting-service-mini.png)
+![Greeting Service](/openshift/assets/middleware/rhoar-microservices/greeting-service-mini.png)
 
 **4. Test functionality**
 
@@ -50,7 +50,7 @@ As the page suggests, we're going to put in a name and let our greeting service 
 
 <!-- And indeed that's what we see:
 
-![Hello Message](../../assets/middleware/rhoar-microservices/hello-message.png) -->
+![Hello Message](/openshift/assets/middleware/rhoar-microservices/hello-message.png) -->
 
 
 ## Congratulations

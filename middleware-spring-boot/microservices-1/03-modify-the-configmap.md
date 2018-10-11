@@ -16,15 +16,15 @@ Notice the following dependency that was added to our `greeting-service/pom.xml`
 
 Let's modify the greeting that our service is returning to the user. Since we set up the greeting in a properties file, we will not need to make any code change to change the functionality. This means that we won't need to have any downtime for this change, we're able to modify the response through our newly created ConfigMap from the previous step. We can edit our config map in the OpenShift Console. Click the **OpenShift Console** tab, select `Resources > Config Maps`. Then Select our ConfigMap `app-config`
 
-![Greeting Service](../../assets/middleware/rhoar-microservices/configmap.png)
+![Greeting Service](/openshift/assets/middleware/rhoar-microservices/configmap.png)
 
 Now Select `Edit YAML` from the actions menu in the upper right corner of the page. 
 
-![Greeting Service](../../assets/middleware/rhoar-microservices/edityaml.png)
+![Greeting Service](/openshift/assets/middleware/rhoar-microservices/edityaml.png)
 
 Change the `greeting.message` property to: `greeting.message=Bonjour, you picked %s as your favorite fruit!`
 
-![Greeting Service](../../assets/middleware/rhoar-microservices/editconfigmap.png)
+![Greeting Service](/openshift/assets/middleware/rhoar-microservices/editconfigmap.png)
 
 Hit `Save` and that's all there is to it!
 
@@ -37,7 +37,7 @@ Click [here](http://spring-boot-configmap-greeting-dev.[[HOST_SUBDOMAIN]]-80-[[K
 
 <!-- `Bonjour <name>...`! 
 
-![Bonjour Message](../../assets/middleware/rhoar-microservices/bonjour-message-minier.png) -->
+![Bonjour Message](/openshift/assets/middleware/rhoar-microservices/bonjour-message-minier.png) -->
 
 This means that we were able to modify our application behavior through External Configuration of the `application.properties` file using a ConfigMap without having to even take down the application. That's pretty powerful!
 

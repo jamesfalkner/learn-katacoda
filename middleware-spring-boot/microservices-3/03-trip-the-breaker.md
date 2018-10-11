@@ -6,15 +6,15 @@ Now that we know both of our services are online and everything is working let's
 
 Navigate to the OpenShift Pod view for the application by clicking on the link [here]([[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/) and navigate to the Overview page. We should see both of our services here:
 
-![Overview](../../assets/middleware/rhoar-microservices/overview-applications.png)
+![Overview](/openshift/assets/middleware/rhoar-microservices/overview-applications.png)
 
 Expand the `spring-boot-circuit-breaker-name` service and we should see that we currently have 1 pod up:
 
-![One pod](../../assets/middleware/rhoar-microservices/one-pod.png)
+![One pod](/openshift/assets/middleware/rhoar-microservices/one-pod.png)
 
 Scale down our `spring-boot-circuit-breaker-name` service from 1 to 0 by clicking on the Down Arrow. This will take down our service. We should get a warning about what we're about to do:
 
-![Scale down](../../assets/middleware/rhoar-microservices/scale-down.png)
+![Scale down](/openshift/assets/middleware/rhoar-microservices/scale-down.png)
 
 Now that our Name Service is down, let's see what happens when we repeat our previous command:
 
@@ -34,7 +34,7 @@ Our application is now returning our failure value due to the Open Circuit. But 
 
 Follow the previous steps to get to our Name Service, except this time scale *up* from 0 pods to 1 by clicking the Up Arrow.
 
-![Zero pods](../../assets/middleware/rhoar-microservices/zero-pods.png)
+![Zero pods](/openshift/assets/middleware/rhoar-microservices/zero-pods.png)
 
 After we confirm that our Name service is up and running on a pod, let's call our greeting service again:
 

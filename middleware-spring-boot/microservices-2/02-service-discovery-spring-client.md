@@ -46,7 +46,7 @@ Now all that's left is to deploy this application and check that it's been prope
 
 Click the `+` sign next to our OpenShift console and select `Open New Terminal`.
 
-![Open New Terminal](../../assets/middleware/rhoar-microservices/open-new-terminal.png)
+![Open New Terminal](/openshift/assets/middleware/rhoar-microservices/open-new-terminal.png)
 
 Run the following commands to navigate to our client project and build it locally
 
@@ -56,7 +56,7 @@ Run the following commands to navigate to our client project and build it locall
 
 After the project has successfully built, check our Eureka Server web view again. Under the `Instances Currently Registerd with Eureka` we should now see our client application!
 
-![Open New Terminal](../../assets/middleware/rhoar-microservices/eureka-new-terminal.png)
+![Open New Terminal](/openshift/assets/middleware/rhoar-microservices/eureka-new-terminal.png)
 
 **3. Test the Application**
 

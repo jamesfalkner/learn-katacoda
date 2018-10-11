@@ -18,7 +18,7 @@ Once that's completed, click on the **Local Web Browser** tab in the console fra
 
 You should now see an HTML page with a `Success` welcome message that looks like this:
 
-![Success](../../assets/middleware/rhoar-monitoring/success.png)
+![Success](/openshift/assets/middleware/rhoar-monitoring/success.png)
 
 If you see this then you've successfully set up the application! If not check the logs in the terminal. Spring Boot adds a couple helper layers to catch common errors and print helpful messages to the console so check for those first.
 

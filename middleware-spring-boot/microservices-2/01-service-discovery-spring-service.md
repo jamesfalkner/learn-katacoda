@@ -57,11 +57,11 @@ Since our application already has Eureka integrated, navigate to our service pro
 
 After that's finished building successfully, click the link [here](https://[[HOST_SUBDOMAIN]]-8761-[[KATACODA_HOST]].environments.katacoda.com/) to look at our web view for our Eureka Discovery Client. Note that it's exposed on the port that we set in our `application.properties` file.
 
-![Eureka client](../../assets/middleware/rhoar-microservices/eureka-client.png)
+![Eureka client](/openshift/assets/middleware/rhoar-microservices/eureka-client.png)
 
 If we take a look under the `Instances Currently Registerd with Eureka` section it should be empty, but we'll be changing that shortly.
 
-![No Instances](../../assets/middleware/rhoar-microservices/eureka-no-instances.png)
+![No Instances](/openshift/assets/middleware/rhoar-microservices/eureka-no-instances.png)
 
 ## Congratulations
 

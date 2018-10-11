@@ -80,21 +80,21 @@ serviceAccount: amq-service-account
 
 Click the **OpenShift Console** tab and select our `amq-demo` project. Then select `Add to Project` followed by `Browse Catalog`. Select `JBoss A-MQ-6.3 (no SSL)`: 
 
-![Messaging](../../assets/middleware/rhoar-messaging/amq62-ssl.png)
+![Messaging](/openshift/assets/middleware/rhoar-messaging/amq62-ssl.png)
 
 We should now see a form accepting multiple parameters for generating the template. The only ones we have to change are the `Queues`, `A-MQ Username`, and `A-MQ Password`.
 
 Enter `boot.q` in the `Queue` field
 
-![Messaging](../../assets/middleware/rhoar-messaging/queues.png)
+![Messaging](/openshift/assets/middleware/rhoar-messaging/queues.png)
 
 Enter the username as `user` and the password as `pass`. These values should correspond to the values in our code sample below
   
-![Messaging](../../assets/middleware/rhoar-messaging/credentials.png)
+![Messaging](/openshift/assets/middleware/rhoar-messaging/credentials.png)
 
 Our application should now be created and we should be greeted with this screen:
 
-![Application Created](../../assets/middleware/rhoar-messaging/app-created.png)
+![Application Created](/openshift/assets/middleware/rhoar-messaging/app-created.png)
 
 
 **3. Add Jboss Active-MQ**

@@ -29,7 +29,7 @@ Make sure that you can add and remove fruits using the web application.
 
 Now that our application is deployed, navigate to our route in the OpenShift Web View or click [here](http://spring-boot-circuit-breaker-greeting-dev.[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/). We should see the following header, meaning everything was successful:
 
-![Circuit Breaker page](../../assets/middleware/rhoar-microservices/circuit-mainpage.png)
+![Circuit Breaker page](/openshift/assets/middleware/rhoar-microservices/circuit-mainpage.png)
 
 **4. Test current functionality**
 
