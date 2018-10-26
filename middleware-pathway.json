@@ -5,7 +5,7 @@
     {
       "action": "Start Course",
       "count": 11,
-      "external_link": "https://learn.openshift.com/middleware-spring-boot/",
+      "external_link": "https://learn.openshift.com/middleware/courses/middleware-spring-boot/",
       "course_id": "middleware-spring-boot",
       "title": "Spring and Spring Boot development"
     },
