@@ -3,6 +3,8 @@ Streams Messaging and [Apache Kafka](https://kafka.apache.org), a distributed st
 
 ## What is Apache Kafka?
 
+### OpenSSL
+
 Apache Kafka is a distributed streaming platform. A streaming platform has three key capabilities:
 
   - Publish and subscribe to streams of records, similar to a message queue or enterprise messaging system.
